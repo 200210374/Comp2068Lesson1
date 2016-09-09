@@ -1,0 +1,16 @@
+
+// link to nodes http library
+var http = require('http');
+
+//start a local webserver and event listener
+http.createServer(function(request, response( )) {
+response.writeHead(200); //
+response.end('Our first page')
+
+
+};.listen(3000);
+
+
+//the empty server has started
+
+console.log('Server running on port 3000');
